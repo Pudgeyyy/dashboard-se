@@ -1,32 +1,37 @@
-:root{
-    font-family: sans-serif;
+*{
     padding: 0;
     margin: 0;
 }
+:root{
+    font-family: sans-serif;
+}
 body{
     background-color: #e0e0df;
+    width: 100%;
 }
 #message {
-    font-size: 7rem;
+    font-size: 2.5rem;
     margin: 50px 0 40px 40px;
 }
-#dashboard{
-    font-size: 5rem;
+#db-message{
+    font-size: 2rem;
     margin: 50px;
 }
-#ds-container{
+#db-container{
     background-color: #ffffff;
-    width: auto;
+    width: 100%;
     height: auto;
-    border-radius: 50px 50px 0 0;
+    border-radius: 25px 25px 0 0;
     display: flex;
     flex-flow: column;
+    margin: 0;
+    padding: 0;
 }
 .options{
     background: #999997;
-    height: 500px;
+    height: 250px;
     width: calc(100% - 100px);
     margin: 30px 0;
-    border-radius: 40px;
+    border-radius: 20px;
     align-self: center;
 }
